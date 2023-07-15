@@ -1,0 +1,39 @@
+.modal_blur {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_main {
+  background-color: #fff;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.modal_header {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_header button {
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+.modal_body {
+  padding: 20px;
+}
